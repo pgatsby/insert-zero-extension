@@ -3,7 +3,7 @@
 ## About The Project
 
 <div align="center"> 
-<img width="492" alt="insert-zero-extension" src="">
+<img width="497" alt="insert-zero-extension" src="https://github.com/user-attachments/assets/471465d6-41e1-4528-a367-5865650ed873">
 </div>
 
 Insert Zero Extension is a browser extension designed to automate the process of inserting missing grades in a Canvas gradebook. It scans the gradebook, identifies missing entries, and updates them with a default value of zero. This extension enhances efficiency for educators and administrators by automating manual grade adjustments.
