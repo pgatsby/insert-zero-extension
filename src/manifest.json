@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Insert Zero",
+  "version": "1.0",
+  "description": "A simple extension to insert zeros automatically into canvas gradebook.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "media/images/icon.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://*.instructure.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.instructure.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["js/insertzero.js"],
+      "matches": ["https://*.instructure.com/*"]
+    }
+  ]
+}
