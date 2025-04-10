@@ -33,7 +33,7 @@ Before using the extension, ensure you have:
    Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/p-gatsby/insert-zero-extension.git
+   git clone https://github.com/pgatsby/insert-zero-extension.git
    ```
 
 2. **Load the Extension in Chrome**
